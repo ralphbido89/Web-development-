@@ -21,5 +21,18 @@
 <body>
     <h1>Ducati Streetfighter - $9000</h1>
     <p>year: <strong>2012</strong></p>
+
+    <p class="buttons">Change button color to:</p>
+        <button id="white-btn">White</button>
+        <button id="red-btn">Red</button>
+        <button id="blue-btn">Blue</button>
 </body>
+<script>
+    let whiteBtn = document.getElementById('white-btn');
+        whiteBtn.addEventListener("click", function() {
+            changeTextColor('white');
+        })
+    
+    
+    </script>
 </html>
