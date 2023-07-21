@@ -33,3 +33,26 @@
 h2.prices {
     color: green;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1%;
+    background-color: whitesmoke;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logoimage {
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.select {
+    position: absolute;
+    padding-left: 110px;
+}
