@@ -40,6 +40,8 @@ header {
     justify-content: space-between;
     padding: 10px 1%;
     background-color: whitesmoke;
+    flex-grow: 1;
+    flex-basis: 100px;
 }
 
 .navlinks li {
@@ -55,4 +57,22 @@ header {
 .select {
     position: absolute;
     padding-left: 110px;
+}
+
+
+.searchinput {
+    width: 1500px;
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 40px;
+    border: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+
+.sidebar {
+    width: 200px;
+    
+    margin-left: 5px;
+
 }

@@ -19,15 +19,24 @@
             <option value="anaheim">Anaheim</option>
             <option value="santaana">Santa Ana</option>
             <option value="costamesa">Costa Mesa</option>
-            <option value="lasvegas">San Bernardino</option>
-            <option value="lasvegas">North Hollywood</option>
+            <option value="sanbernardino">San Bernardino</option>
+            <option value="northhollywood">North Hollywood</option>
        </select>
        <select name="forsale" id="forsale" class="forsale">
             <option value="forsale">for sale</option>
-            <option value="forsale">community</option>
-            <option value="forsale">events</option>
+            <option value="community">community</option>
+            <option value="events">events</option>
+            <option value="gigs">gigs</option>
        </select>
-       </div>
+       <select name="category" id="category">
+            <option value="all">all</option>
+            <option value="antique">antique</option>
+            <option value="appliances">appliances</option>
+            <option value="appliances">artsandcrafts</option>
+       </select>
+       </div>   
+
+      
        
         <nav>
             <ul class="navlinks">
@@ -38,25 +47,69 @@
         </nav>
         <a href="#" class="cta"><button>Contact</button></a>
     </header>
+
+    <div class="search">
+        
+        <input type="search" placeholder="search for sale" class="searchinput">
+        <span>Icon</span>
+       </div>
+
+     
+
+
+
+
     <div class="container">
+        <div class="sidebar">
+            <h3 style="color: blue;">for sale</h2>
+                <p>
+                    
+                     <input type="checkbox" name="item1">
+                     <label for="item1">general for sale</label>
+                </p>
+
+                <p>
+                    
+                    <input type="checkbox" name="item1">
+                    <label for="item1">furniture</label>
+               </p>
+
+               <p>
+                    
+                <input type="checkbox" name="item1">
+                <label for="item1">household items</label>
+             </p>
+
+           <p>
+                    
+            <input type="checkbox" name="item1">
+            <label for="item1">auto parts</label>
+            </p>
+            
+        </div>
       <div class="photo">
         <div class="price">
             <h2 class="prices">$4,000</h2>
         </div>
-        <img src="/images/Ducatti.jpg" alt="">
-        <p>2007 Ducatti Dyna!!</p>
+        <a href="#">
+            <img src="/images/Ducatti.jpg" alt="">
+            <p>2007 Ducatti Dyna!!</p>
+        </a>
+     
       </div>
       <div  class="photo">
         <div class="price">
             <h2 class="prices">$4,000</h2>
         </div>
-        <img src="/images/Hayabusa.jpg" alt="">
+        <a href="#"><img src="/images/Hayabusa.jpg" alt=""></a>
+        
         </div>
       <div  class="photo">
         <div class="price">
             <h2 class="prices">$4,000</h2>
         </div>
-        <img src="/images/Harley Dyna.jpg" alt="">
+        <a href="#"> <img src="/images/Harley Dyna.jpg" alt=""></a>
+       
         </div>
 
 
